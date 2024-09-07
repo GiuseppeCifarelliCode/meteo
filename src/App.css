@@ -1,8 +1,22 @@
-
 .search-form {
   margin: 10px 5px 5px 5px;
   display: flex;
   justify-content: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0 5px 0;
+}
+
+.hero {
+  width: 50%;
+  border-radius: 8px;
 }
 
 .weather-card {

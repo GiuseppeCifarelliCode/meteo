@@ -9,6 +9,7 @@ import { updateFavorites } from './services/authService';
 import Favorites from './pages/Favorites';
 import { login } from './services/authService';
 import { getUserFavorites } from './services/authService';
+import Hero from './components/hero';
 
 function App() {
     const [isAuthenticated, setIsAuthenticated] = useState(false)
@@ -53,6 +54,7 @@ function App() {
         <Router>
             <div>
                 <Navbar isAuthenticated={isAuthenticated} onLogout={handleLogout}></Navbar>
+                <Hero></Hero>
                 <Routes>
                     <Route path='/' element={<Home isAuthenticated={isAuthenticated} onAddToFavorites={handleAddToFavorites}></Home>}></Route>
                     <Route path='/signup' element={<SignUp onSignUp={handleLogin}></SignUp>}></Route>
