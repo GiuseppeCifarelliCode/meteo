@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid grey;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid grey;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+.nav-items {
+    margin: 0 10px 0 10px;
+}
+
+.logoutBtn {
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 2px;
+}
